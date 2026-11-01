@@ -10,7 +10,7 @@ import joblib
 
 def load_dataset():
     df = pd.read_csv(
-        "data/AirQualityUCI.csv",
+        "AirQualityUCI.csv",
         sep = ";",
         decimal = ","
     )
